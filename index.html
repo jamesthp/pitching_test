@@ -95,7 +95,7 @@
             <!-- <div class="intro-lead-in">Welcome!</div> -->
             <!-- <div class="intro-heading">It&rsquo;s nice to meet you</div> -->
             <!-- <a href="#services" class="page-scroll btn btn-xl">Make a Pitch!</a> -->
-            <a class="page-scroll btn btn-xl">Make a Pitch!</a>
+            <a href="#portfolioModal_submit" data-toggle="modal" class="page-scroll btn btn-xl">Make a Pitch!</a>
         </div>
     </div>
 </header>
@@ -326,6 +326,91 @@
 </div>
 
 
+<div class="portfolio-modal modal fade" id="portfolioModal_submit" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+
+                    <h2>Submit Pitch </h2>
+
+                        <table class="table">
+                            <tr>
+                                <td><strong class="title-label">Title: </strong></td>
+                                <td><input class="title-input" type="text" name="title"></td>
+                            </tr>
+                            <tr>
+                                <td valign="top"><strong class="summary-label">Summary: </strong></td>
+                                <td><textarea class="summary-input" rows="4" cols="50" name="summary"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td valign="top"><strong class="description-label">Description: </strong></td>
+
+                            </tr>
+                            <tr>
+                                <td><strong class="authors-label">Authors: </strong></td>
+                                <td>
+                                    <select class="chosen-select" name="authors" multiple>
+                                    
+                                        <option value="1">yani.lathouris</option>
+                                    
+                                        <option value="2">kevin.desa</option>
+                                    
+                                        <option value="3">james.robison</option>
+                                    
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong class="categories-label">Categories: </strong></td>
+                                <td>
+                                    <select class="chosen-select" name="categories" multiple>
+                                    
+                                        <option value="1">Just for Fun</option>
+                                    
+                                        <option value="2">Productivity</option>
+                                    
+                                        <option value="3">Technical</option>
+                                    
+                                        <option value="4">Business Improvement</option>
+                                    
+                                        <option value="5">New Feature</option>
+                                    
+                                        <option value="6">aces</option>
+                                    
+                                        <option value="7">colour</option>
+                                    
+                                        <option value="8">vfx</option>
+                                    
+                                        <option value="9">render</option>
+                                    
+                                        <option value="10">workfuel</option>
+                                    
+                                        <option value="11">Friday</option>
+                                    
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div>
+                            <a>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Save Pitch</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
         
 
